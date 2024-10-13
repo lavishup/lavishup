@@ -1,11 +1,11 @@
-name: Automated Commit
+name: CA
 
 on:
   push:
     branches: [master] #
 
   schedule:
-    - cron: '*/30 * * * *' #
+    - cron: '* */4 * * *' #
 
   workflow_dispatch: #
 
